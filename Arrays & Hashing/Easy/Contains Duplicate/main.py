@@ -10,4 +10,4 @@ class Solution:
                 return True
             else:
                 hash_set.add(n)
-            return False
+        return False
