@@ -24,3 +24,15 @@ class Solution:
 
         # returns dictionary comparison
         return s_hash == t_hash
+    
+# driver code
+    
+tests = [
+    ["anagram", "nagaram"], # true
+    ["rat", "car"] # false
+]
+
+solution = Solution()
+
+for test in tests:
+    print(solution.isAnagram(test[0], test[1]))
