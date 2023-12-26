@@ -27,12 +27,12 @@ class Solution:
     
 # driver code
     
-tests = [
-    ["anagram", "nagaram"], # true
-    ["rat", "car"] # false
-]
+# tests = [
+#     ["anagram", "nagaram"], # true
+#     ["rat", "car"] # false
+# ]
 
-solution = Solution()
+# solution = Solution()
 
-for test in tests:
-    print(solution.isAnagram(test[0], test[1]))
+# for test in tests:
+#     print(solution.isAnagram(test[0], test[1]))
